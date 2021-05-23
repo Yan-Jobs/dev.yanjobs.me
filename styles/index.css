@@ -8,7 +8,7 @@ body {
     background: #333;
     font-family: Arial, Helvetica, sans-serif;
     height: 100vh;
-    background: url('../assets/trump.jpeg');
+    background-image: url('../assets/bg.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;

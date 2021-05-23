@@ -23,7 +23,7 @@ window.addEventListener("load", () => {
 
   TL.play().then(play => {
     let opts = {
-      strings: ["is a Js dev...", "is a dicord bot dev..."],
+      strings: ["is a Js dev...", "is a discord bot dev..."],
       typeSpeed: 20,
       showCursor: false
 
