@@ -1,7 +1,7 @@
 const titreSpans = document.querySelectorAll("h1 span");
 const btns = document.querySelectorAll(".btn-first");
 const logo = document.querySelector(".logo");
-const medias = document.querySelectorAll(".bulle");
+const medias = document.querySelectorAll(".bubble");
 const l1 = document.querySelector(".l1");
 const l2 = document.querySelector(".l2");
 const btnDiscord = document.querySelector("#btnDiscord");
