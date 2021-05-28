@@ -1,5 +1,4 @@
 *.html
 .replit
 CNAME
-style.css
 yarn.lock

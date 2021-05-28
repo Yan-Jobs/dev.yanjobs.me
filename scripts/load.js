@@ -21,17 +21,16 @@ window.addEventListener("load", () => {
     .from(logo, 0.4, { transform: "scale(0)", ease: "power2.out" }, "-=2")
     .staggerFrom(medias, 1, { right: -200, ease: "power2.out" }, 0.3, "-=1");
 
-  TL.play().then(play => {
+  TL.play().then((play) => {
     let opts = {
       strings: ["is a Js dev...", "is a discord bot dev..."],
       typeSpeed: 20,
-      showCursor: false
-
-    }
+      showCursor: false,
+    };
     const typed = new Typed("#typedText", opts);
-  })
+  });
 });
 
 btnDiscord.addEventListener("click", () => {
-  alert("The Discord is not yet ready... Sorry.")
-})
+  alert("The Discord is not yet ready... Sorry.");
+});
